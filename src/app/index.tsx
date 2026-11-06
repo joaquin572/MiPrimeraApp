@@ -6,13 +6,13 @@ export default function Index() {
 
   return (
     <View style={styles.contenedor}>
-      <Text style={styles.titulo}>Mi primera aplicación Joaquin Jaramillo</Text>
+      <Text style={styles.titulo}>Mi primera aplicación</Text>
       <Text style={styles.mensaje}>{mensaje}</Text>
       <Pressable
         style={styles.boton}
         onPress={() => setMensaje('¡Mi primer botón funciona y muy bien!')}
       >
-        <Text style={styles.textoBoton}>Púlsameeeeeeeeeeeee</Text>
+        <Text style={styles.textoBoton}>Púlsame</Text>
       </Pressable>
     </View>
   );
